@@ -1,6 +1,6 @@
 
-# An introduction in { YOUR TOPIC } with { LIBARY YOU USE } 
-### Level: Beginner - Advanged beginner
+# An introduction in Flask with Python Anywhere
+### Level: Beginner - Advanced beginner
 ### Presentation: (where your audience can find the presentations)
 
 ## Project description
