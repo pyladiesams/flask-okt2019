@@ -12,7 +12,7 @@ During this workshop you learn how to build a web app with Flask and host it in 
 Let's get started!
 
 ## Preparations:
-Create an beginners account on https://www.pythonanywhere.com/registration/register/beginner/.
+Create a beginners account on https://www.pythonanywhere.com/registration/register/beginner/.
 
 ## Requirements
 No requirements.
