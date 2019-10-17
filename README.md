@@ -1,29 +1,30 @@
 
 # An introduction in Flask with Python Anywhere
-### Level: Beginner - Advanced beginner
-### Presentation: (where your audience can find the presentations)
+### Level: Beginner 
+### Presentation: workshop folder
 
 ## Project description
-Describe why your introduction in this topic is important and what you want to teach your audience
+During this workshop you learn how to build a web app with Flask and host it in the cloud with pythonanywhere in just one hour! You will build an web app that allows you to keep a to-do list. It has the following main features:
+•	Create an item in the todo list
+•	Read the complete todo list
+•	Delete the items from the list
 
+Let's get started!
 
 ## Preparations:
-Set up a Python 3 environment that can run Jupyter notebooks (Jupyter or Jupyterlab) and install the following libraries:
-* ...
-
-The easiest way to do this is to install [anaconda](https://www.anaconda.com/distribution/) and install the libraries in your root environment:
-```conda install matplotlib pandas seaborn```
-
-If you already have a running (ana)conda environment, you can use `intro.yml` to set up a separate enviroment:
-```conda env create -f environment.yml```
+Create an beginners account on https://www.pythonanywhere.com/registration/register/beginner/.
 
 ## Requirements
-* Python 3
-* ...
+No requirements.
 
 ## Usage
-* Clone the repository
-* Start jupyter(lab) and navigate to the workshop folder
+1. Go to pythonanywhere.com, log in and go to your dashboard.
+2. Open the workshop file in the workshop folder. 
+3. Follow the steps in the workshop file. 
+4. You will code everything yourself except for the HTML template which you can also find in the workshop folder.
+5. Need help? Ask your fellow Pyladies or the workshop leader!
+6. Still need help? Look at the example folder or the solutions folder.
+7. Have fun and build your own app!
 
 ## Credits
-This workshop was set up by @pyladiesams and {your github}
+This workshop was set up by @pyladiesams and Claudia Sulsters.
