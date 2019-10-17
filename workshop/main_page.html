@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title> To do app</title>
+
+    </head>
+
+    <nav class="navbar navbar-light bg-light">
+        <h1> To do app </h1>
+    </nav>
+
+    <body>
+
+    <div class="container">
+        <br>
+
+        <div class="row">
+
+            <div class="col">
+                <h2> This app let you keep a to do list! </h2>
+                <br>
+                <form method="POST" action="/">
+                    <div class="form-group">
+                        <input type="text" name="item" class="form-control" placeholder="What needs to be done?">
+                    </div>
+                    <br>
+                    <input class="btn btn-outline-danger" type="submit" value="Add to list">
+                </form>
+            </div>
+
+
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Done?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in items %}
+                        <tr>
+                        <td>{{item.name}}</td>
+                        <td>
+                        <form method="POST" action="./delete">
+                            <input type="hidden" value="{{item.name}}" name="item">
+                            <input class="btn btn-outline-danger" type="submit" value="Done">
+                        </form>
+                        </td>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
