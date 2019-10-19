@@ -19,7 +19,7 @@ No requirements.
 
 ## Usage
 1. Go to pythonanywhere.com, log in and go to your dashboard.
-2. Open the workshop file in the workshop folder. 
+2. Open the workshop file 'Workshop Part I + II) in the workshop folder. 
 3. Follow the steps in the workshop file. 
 4. You will code everything yourself except for the HTML template which you can find in the workshop folder.
 5. Need help? Ask your fellow Pyladies or the workshop leader!
