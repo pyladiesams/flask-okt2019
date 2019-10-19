@@ -1,13 +1,13 @@
 
-# An introduction in Flask with Python Anywhere
+# An introduction to Flask with Python Anywhere
 ### Level: Beginner 
-### Presentation: workshop folder
+### Presentation: Workshop folder
 
 ## Project description
 During this workshop you will learn how to build a web app with Flask and host it in the cloud with pythonanywhere in just one hour! We will build an web app that allows you to keep a to-do list. It has the following main features:
-•	Create an item in the todo list
-•	Read the complete todo list
-•	Delete the items from the list
+• Add items to your to-do list
+•	Read the complete to-do list
+•	Delete items from your to-do list
 
 Let's get started!
 
@@ -23,8 +23,8 @@ No requirements.
 3. Follow the steps in the workshop file. 
 4. You will code everything yourself except for the HTML template which you can find in the workshop folder.
 5. Need help? Ask your fellow Pyladies or the workshop leader!
-6. Still need help? Look at the example folder or the solutions folder.
-7. Have fun and build your own app!
+6. Still need help? Look at the solutions folder.
+7. Have fun building your own app!
 
 ## Credits
 This workshop was set up by @pyladiesams and Claudia Sulsters.
