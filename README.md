@@ -4,7 +4,7 @@
 ### Presentation: Workshop folder
 
 ## Project description
-During this workshop you will learn how to build a web app with Flask and host it in the cloud with pythonanywhere in just one hour! We will build an web app that allows you to keep a to-do list. It has the following main features:
+During this workshop you will learn how to build a web app with Flask and host it in the cloud with PythonAnywhere in just one hour! We will build a web app that allows you to keep a to-do list. It has the following main features:
 * Add items to your to-do list
 * Read the complete to-do list
 * Delete items from your to-do list
